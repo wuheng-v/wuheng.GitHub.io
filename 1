@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<style>
+			.one{
+   				border:1px solid darkgray;
+   				color:red;
+   				background:#ccc;
+   				font-weight: 700;
+   			}
+   			.two{
+   				color:blue;
+   			}
+    
+		</style>
+		<script type="text/javascript">
+			
+			
+			var mychar;
+			mychar="javascript";
+			mychar="hello";
+	
+			var score=80;
+			if(score>=60)
+			document.write("good");
+		    else
+			document.write("regret");
+			function add1()
+			{
+			 sum = "胡纯 憨憨";
+			 alert(sum);
+			}
+		add1();			
+		function add2()
+		{
+			 sum = "胡珊 莽脑壳";
+			 alert(sum);
+			}
+			add2();
+			function add3()
+			{
+				 sum = "向佳 呆脑壳";
+				 alert(sum);
+			}
+			add3();
+			function add4()
+			{
+				sum = "张露 小机灵鬼";
+				alert(sum);
+			}
+			add4();
+			
+			
+////			 var message=confirm("你今天过得好吗？")
+////			 if(message==true)
+////			 {
+////			 	document.write("yes!");
+////			 }
+////			 else
+////			 {
+////			 	document.write("no!");
+////			 }*/
+////			 
+////			 
+////			
+////			/*var myname=prompt("我的名字是：");
+////			if(myname!=null)
+////			{document.write("你好"+myname);}
+////			else
+////			{alert("你好,我的朋友");}
+////			window.open('http://www.imooc.com','_blank','width=300,height=200,menubar=no,toolbar=no, status=no,scrollbars=yes')
+////			
+//// 			function add1(){
+//// 				var p1()=document.getElementById("p1");
+//// 				p1.className="one";
+//// 			}
+//// 			function add2(){
+//// 				var p2()=document.getElementById("p2");
+//// 				p2.className="two";
+//// 			}*/
+//// 			
+//// 			
+   			var mychar=document.getElementById("con");
+  			document.write("结果:"+mychar); //输出获取的P标签。 
+  </script> 
+ </head> 
+ <body> 
+ 		<p id="con">JavaScript</p>
+ 		         	
+         
+ 			<h2 id="con">javascript</H2>
+			<script type="text/javascript">
+			  var mychar=document.getElementById("con");
+			  document.write("原标题:"+mychar.innerHTML+"<br>"); //输出原h2标签内容
+			  mychar.innerHTML("Hello world!");
+			  document.write("修改后的标题:"+mychar.innerHTML); //输出修改后h2标签内容
+			</script>
+ 		
+	    <input type="button" value="新窗口打开网站" onclick="openWindow()" /> 
+		<input type="button" value="憨脑壳" onclick="add1()">
+		<input type="button" value="莽脑壳" onclick="add2()">
+		<input type="button" value="呆脑壳" onclick="add3()">
+		<input type="button" value="小机灵鬼" onclick="add4()">	
+		<!--<p id="p1">js使网页显示动态效果并实现与用户交互功能</p><br>
+		<input type="button"  value="添加样式" onclick="add1()"><br>
+		<p id="p2" class="one">js使网页显示动态效果并实现与用户交互功能</p>
+		<input type="button"  value="更改外观" onclick="add2()"><br>-->
+	</body>
+</html>
